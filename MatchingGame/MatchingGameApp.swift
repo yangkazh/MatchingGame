@@ -1,9 +1,3 @@
-//
-//  MatchingGameApp.swift
-//  MatchingGame
-//
-//  Created by yang on 11/16/20.
-//
 
 import SwiftUI
 
@@ -11,7 +5,8 @@ import SwiftUI
 struct MatchingGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let game = MatchingGameViewModel()
+            MatchingGameView(viewModel: game)
         }
     }
 }
