@@ -1,5 +1,3 @@
 # MatchingGame
 
-### Demo 
-
 ![](MatchingGame.gif)
